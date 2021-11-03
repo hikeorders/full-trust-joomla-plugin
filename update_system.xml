@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<updates>
+
+    <update>
+       <name>Full Trust</name>
+       <description>The official Full Trust Plugin for Drupal. Shows reviews, stores, branches, badges, media coverage, metrics, social profiles, awards, certificates, payment methods and more all in one place.</description>
+       <element>fulltrust</element>
+       <type>plugin</type>
+       <folder>system</folder>
+       <version>1.0.0</version>
+       <downloads>
+           <downloadurl type="full" format="zip">https://github.com/hikeorders/full-trust-joomla-plugin/blob/main/fulltrust-joomla-plugin.zip?raw=true</downloadurl>
+       </downloads>
+       <maintainer>HikeOrders</maintainer>
+       <maintainerurl>https://hikeorders.com/trust/home/</maintainerurl>
+       <targetplatform name="joomla" version="3.[012345678910]"/>
+       <client>0</client>
+       <client_id>0</client_id>
+    </update>
+
+</updates>
