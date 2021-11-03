@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="system">
+    <name>Full Trust</name>
+    <author>HikeOrders</author>
+    <creationDate>March 2019</creationDate>
+    <copyright>Copyright (C) 2019 HikeOrders.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html; see LICENSE.txt</license>
+    <authorEmail>team@hikeorders.com</authorEmail>
+    <authorUrl>https://hikeorders.com/trust/home</authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_SYSTEM_FULLTRUST_DESCRIPTION</description>
+    <files>
+        <filename plugin="fulltrust">fulltrust.php</filename>
+        <filename>index.html</filename>
+        <folder>main</folder>
+        <folder>language</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_fulltrust.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_fulltrust.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params" addfieldpath="plugins/system/fulltrust/main/admin">
+            <fieldset name="basic">
+                <field name="widget_id"
+                       type="text"
+                       default=""
+                       description="PLG_SYSTEM_FULLTRUST_WIDGET_ID_DESC"
+                       label="PLG_SYSTEM_FULLTRUST_WIDGET_ID_LABEL"
+                />
+                <field name="spacer_info"
+                       type="spacerinfo"
+                       default=""
+                       label=""
+                       description=""
+                />
+            </fieldset>
+        </fields>
+    </config>
+
+    <updateservers>
+        <server type="extension" name="Full Trust" priority="2">https://raw.githubusercontent.com/hikeorders/Accessibility-Enabler-Joomla-Plugin/master/update_system.xml</server>
+    </updateservers>
+</extension>
