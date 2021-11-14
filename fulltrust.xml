@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.8" type="plugin" group="system">
-    <name>Full Trust</name>
+    <name>System - Full Trust</name>
     <author>HikeOrders</author>
     <creationDate>March 2019</creationDate>
     <copyright>Copyright (C) 2019 HikeOrders.</copyright>
